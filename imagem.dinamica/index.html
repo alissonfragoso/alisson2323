@@ -18,5 +18,13 @@
     <h1>Reproduzindo Audio</h1>
     <p>reproduzir audio em html sem conversão</p>
     <audio src="media/Press Fuse.mp3" controls autoplay></audio>
+    <P>
+        <h1>reproduzindo audio com converção</h1>
+        <audio preload="metadata"controls loop>
+            <source src="media/Press Fuse.mp3"type="audio/mp3">
+            <source src="media/Press Fuse.ogg" type="audio/ogg">
+            <source src="media/Press Fuse.wav" type="audio/wav">
+        </audio>
+    </P>
 </body>
 </html>
