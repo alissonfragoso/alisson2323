@@ -1,13 +1,41 @@
-.oi{
+.oi {
     width: 100%;
+
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    height: 80px;
+    flex-direction: row;
+    display: flex;
+    border-radius: 20px;
+}
+
+.butoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    border: solid 1px blue;
     
+
 }
-.linha{
-    display: flex;
-    flex-direction: row;
+
+i {
+    font-size: 29px;
 }
-.titulo{
-    height: 100px;
-    flex-direction: row;
-    display: flex;
+
+h1 {
+    width: 70%;
+    text-align: center;
+    color: rgb(11, 73, 246);
+}
+body {
+    background-color: rgb(255, 255, 255);
 }
