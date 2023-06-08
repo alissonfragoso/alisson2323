@@ -37,5 +37,8 @@ h1 {
     color: rgb(11, 73, 246);
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(232, 232, 232);
+}
+button{
+    color:  rgb(81, 0, 255);
 }
